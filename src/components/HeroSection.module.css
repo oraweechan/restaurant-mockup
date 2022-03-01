@@ -1,0 +1,10 @@
+.hero {
+    display: flex;
+    min-height: 660px;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.heroItems {
+    border: solid;
+}
