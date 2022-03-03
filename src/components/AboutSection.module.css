@@ -1,0 +1,10 @@
+.about_items {
+    padding: 3rem;
+    min-width: 900px;
+    margin-top: -1rem;
+    margin-bottom: 4rem;
+}
+
+.about_items h5 {
+    line-height: 2rem;
+}

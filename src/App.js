@@ -1,5 +1,4 @@
-
-import { Container } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import "./styles/globals.css";
@@ -7,11 +6,10 @@ import "./styles/globals.css";
 function App() {
   return (
     <div className="App">
-      <Container>
+    
       <Home />
       <Footer />
 
-      </Container>
       
     </div>
   );

@@ -4,7 +4,7 @@ import NavMenu from "../components/Layout/NavMenu/NavMenu";
 import Testimonial from "../components/Testimonial";
 import TextContent from "../components/TextContent";
 import classes from "./Home.module.css";
-import { Row, Col } from "react-bootstrap";
+import AboutSection from "../components/AboutSection";
 
 function Home() {
   return (
@@ -27,23 +27,8 @@ function Home() {
           alt="soup"
         />
       </div>
+      <AboutSection />
 
-      <div className="about">
-        <div className={classes.about_items}>
-
-              <TextContent>
-                {" "}
-                Ultricies arcu bibendum bitae congue proin sit aliquam, felis
-                venenatis{" "}
-              </TextContent>
-
-              <TextContent>
-                {" "}
-                Ultricies arcu bibendum bitae congue proin sit aliquam, felis
-                venenatis{" "}
-              </TextContent>
-        </div>
-      </div>
       <div className={classes.photo}>
         <img
           src="https://github.com/dcartist/FrontEndHackathon/blob/master/MOCKUP/Restaurant/images/unsplash_P1aohbiT-EY.jpg?raw=true"

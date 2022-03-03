@@ -11,6 +11,7 @@ export default function NavMenu() {
           <li>ABOUT</li>
           <li>GALLERY</li>
           <li>TESTIMONIAL</li>
+          <div className={classes.contact}>
           <li>
             <img
               src="https://res.cloudinary.com/orawee/image/upload/v1646243594/icons8-phone-24_dkh7dh.png"
@@ -18,6 +19,9 @@ export default function NavMenu() {
             />
             1800-123-4567
           </li>
+              
+          </div>
+          
           <li className={classes.reservations}>RESERVATION</li>
         </ul>
       </nav>

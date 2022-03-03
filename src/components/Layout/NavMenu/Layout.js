@@ -1,13 +1,13 @@
-import NavMenu from "./NavMenu";
+// import NavMenu from "./NavMenu";
 
-function Layout(props) {
-    return (
-        <>
-         <NavMenu />
-        <main>{props.children}</main>
-        </>
+// function Layout(props) {
+//     return (
+//         <>
+//          <NavMenu />
+//         <main>{props.children}</main>
+//         </>
        
-    );
-  }
+//     );
+//   }
   
-  export default Layout;
+//   export default Layout;
