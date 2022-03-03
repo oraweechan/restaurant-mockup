@@ -1,10 +1,13 @@
+import { Container, Row, Col } from "react-bootstrap";
 
 function Footer() {
   return (
-    <div className="Footer">
-      <div className="footer-items">
-          <p>2022 Copyrights. All rights reserved.</p>
+    <Container className="Footer">
+      <Row className="footer-items">
+  
+      <span>2022 Copyrights. All rights reserved.</span>
         <div className="footer-socials">
+       
           <img
             src="https://res.cloudinary.com/orawee/image/upload/v1646186186/icons8-facebook-24_x35gck.png"
             alt="fb"
@@ -26,8 +29,10 @@ function Footer() {
             alt="linkedin"
           />
         </div>
-      </div>
-    </div>
+    
+          
+      </Row>
+    </Container>
   );
 }
 

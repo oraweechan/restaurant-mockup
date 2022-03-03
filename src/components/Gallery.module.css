@@ -1,0 +1,11 @@
+.about_items img {
+    object-fit: cover;
+    /* padding: 5rem; */
+    border: solid;
+    margin: 0.5rem;
+}
+
+.about_left {
+        margin-top: 7rem;
+        text-align: center;
+}

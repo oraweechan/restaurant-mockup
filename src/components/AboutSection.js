@@ -5,7 +5,7 @@ import classes from "./AboutSection.module.css";
 export default function AboutSection() {
   return (
     <>
-      <Container>
+      <Container className={classes.about_section}>
         <Row className={classes.about_items}>
           <Col xs={12} sm={7}>
             {" "}

@@ -7,28 +7,22 @@ function Gallery() {
     <>
       <Container>
         <Row className={classes.about_items}>
-          <Col xs={12} sm={5}>
+          <Col xs={6} sm={5}>
             {" "}
-            <div className="about_left">
+            <div className={classes.about_left}>
               <div className="about_left_content">
-                <h5>ABOUT</h5>
+                <h5>Gallery</h5>
+                <h4>Feast your eyes</h4>
                 <p>
                   {" "}
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Nullam eget urna at libero finibus pretium. Donec faucibus
-                  volutpat nisl ac placerat.
+                  Morbi malesuada sit odio dui aliquam at sollicitudin leo ac.
+                  Faucibus cras ac accumsan id quam. Cursus.
                 </p>
-                <p>
-                  {" "}
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Nullam eget urna at libero finibus pretium. Donec faucibus
-                  volutpat nisl ac placerat. Vestibulum odio turpis, volutpat at
-                  aliquet sit amet, volutpat eu lectus.
-                </p>
+                <p> CHECK NOW</p>
               </div>
             </div>
           </Col>
-          <Col xs={12} sm={7}>
+          <Col xs={6} sm={7}>
             {" "}
             <div className="about_right">
               <div className="about_right_content">

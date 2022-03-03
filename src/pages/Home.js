@@ -5,6 +5,7 @@ import Testimonial from "../components/Testimonial";
 import TextContent from "../components/TextContent";
 import classes from "./Home.module.css";
 import AboutSection from "../components/AboutSection";
+import ContactSection from "../components/ContactSection";
 
 function Home() {
   return (
@@ -43,25 +44,7 @@ function Home() {
           alt="egg"
         />
       </div>
-      <div className="contact">
-        <div className="branches">
-          <h3>Our Branches</h3>
-          <p> loremipsum loremipsum loremipsumloremipsumloremipsumloremipsum</p>
-          <ul>
-            <li>address1</li>
-            <li>address2</li>
-            <li>address3</li>
-            <li>address4</li>
-            <li>address5</li>
-          </ul>
-          <div className="contact-photo">
-            <img
-              src="https://github.com/dcartist/FrontEndHackathon/blob/master/MOCKUP/Restaurant/images/unsplash_IGfIGP5ONV0.jpg?raw=true"
-              alt="egg"
-            />
-          </div>
-        </div>
-      </div>
+      <ContactSection />
     </div>
   );
 }
